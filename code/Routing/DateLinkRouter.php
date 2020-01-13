@@ -6,7 +6,7 @@
  * @package datelink
  * @author Damian Mooyman
  */
-class DateLinkRouter extends Object implements IDateLinkRouter {
+class DateLinkRouter extends SS_Object implements IDateLinkRouter {
 
 	protected function getCacheFilePath() {
 		return ASSETS_PATH . '/' . DateLink::config()->route_cache;

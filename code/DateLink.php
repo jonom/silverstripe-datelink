@@ -7,7 +7,7 @@
  * @package datelink
  * @author Damian Mooyman
  */
-class DateLink extends Object {
+class DateLink extends SS_Object {
 
 	/**
 	 * Instance of date link router to use
